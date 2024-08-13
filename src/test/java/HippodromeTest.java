@@ -20,7 +20,7 @@ public class HippodromeTest {
 		try{
 			new Hippodrome(null);
 		}catch (IllegalArgumentException e){
-			assertEquals("Horses cannot be null",e.getMessage());
+			assertEquals("Horses cannot be null.",e.getMessage());
 		}
 	}
 
@@ -34,7 +34,7 @@ public class HippodromeTest {
 		try{
 			new Hippodrome(new ArrayList<>());
 		}catch (IllegalArgumentException e){
-			assertEquals("Horses cannot be empty",e.getMessage());
+			assertEquals("Horses cannot be empty.",e.getMessage());
 		}
 	}
 
